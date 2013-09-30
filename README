@@ -1,0 +1,11 @@
+INTRODUCTION
+
+This program solves puzzles from the game 24. In the game each puzzle is comprised of four numbers. The objective is to find a some operations that combine use the four numbers to get to 24. For instance if given the numbers 2,6,7,8 a solution would be 8 * (2 + (7 - 6)). 
+
+The program was written in swindle (a variant of racket (which in turn was derived from scheme (a form of lisp))) The family of languages is notable for its use a parenthesis (like this).
+
+TO COMPILE
+Simply compile 24game.rkt using DrRacket. This step has already been done for windows.
+
+TO RUN
+Simply run the executable (24game.exe on Windows, whatever you named it on other platforms) with each number as a separate command line argument. The solution (if one exists) will be displayed on standard output.
